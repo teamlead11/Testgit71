@@ -7,4 +7,7 @@ public class BaseClass {
 		System.out.println("this is my base class");
 	}
 
+	public static void add() {
+		System.out.println("some code added by hema");
+	}
 }
