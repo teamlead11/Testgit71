@@ -2,6 +2,7 @@ package testpack;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Scanner;
 
 public class BaseClass {
 
@@ -33,10 +34,26 @@ public class BaseClass {
 		
 	}
 	
+	 
+	public static void reverse(){
 
+		   {
+		      String original, reverse = "";
+		      Scanner a = new Scanner(System.in);
+		     
+		      System.out.println("Enter a name to reverse");
+		      original = a.nextLine();
+		     
+		      int length = original.length();
+		     
+		      for (int i = length - 1 ; i >= 0 ; i--)
+		         reverse = reverse + original.charAt(i);
+		         
+		      System.out.println("Reverse of the Name: " + reverse);
+		   }
 	
- 		
- 	
- 		
+		
+	}
+	}	
  
-}
+
