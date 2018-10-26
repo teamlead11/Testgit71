@@ -71,14 +71,14 @@ private void reversebyanitha() {
 }
 
 public void reverseByBanu() {
-	String a,reverse="";
-	Scanner in =new Scanner(System.in);
+	String a1,reverse1="";
+	Scanner input =new Scanner(System.in);
 	System.out.println("Enter a string to reverse");
-	a = in.nextLine();
-	int length = a.length();
-	for (int i = length - 1; i >= 0; i--)
-	reverse = reverse + a.charAt(i);
-	System.out.println("Reverse of entered string is: " + reverse);
+	a1 = input.nextLine();
+	int length1 = a1.length();
+	for (int i = length1 - 1; i >= 0; i--)
+	reverse1 = reverse1 + a1.charAt(i);
+	System.out.println("Reverse of entered string is: " + reverse1);
 }
 	
 
