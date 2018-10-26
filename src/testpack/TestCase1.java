@@ -73,7 +73,4 @@ private void reverseByLokes() {
 	System.out.println("Reverse of entered string is: " + reverse);
 	}
 }
-}
-
-}
 
