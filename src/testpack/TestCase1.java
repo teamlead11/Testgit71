@@ -4,7 +4,7 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Scanner;
 
-import java.util.Scanner;
+
 
 public class TestCase1 {
 
@@ -52,6 +52,9 @@ private void reverseByJayi() {
 	reverse = reverse + original.charAt(i);
 	System.out.println("Reverse of entered string is: " + reverse);
 	}
+
+
+
 private void reversebyanitha() {
 	String s ="ANITHA DHANAVEL";
 	String  rev="";
@@ -103,32 +106,48 @@ public void reverseByArun() {
 	
 }
 
-	public void reverseStringByHema(){
-		String temp = "";
-		List<String> reversed = new ArrayList<String>();
+public void reversebyDevisathyarani()
+{
+	String name,rev="";
+	Scanner sc1=new Scanner(System.in);
+	System.out.println("Enter a string reverse");
+	name=sc1.nextLine();
+	int len1=name.length();
+	for(int i=len1-1;i>=0;i--)
+	{
+		rev=rev+name.charAt(i);
+		System.out.println(rev);
 		
-		List<String> li = new ArrayList<String>();
-		
-		li.add("Hema");
-		li.add("Akarsh");
-		
-		Iterator<String> i = li.iterator();
-		while(i.hasNext()){
-			String name = i.next();
-							
-			for(int i1 = name.length()-1;i1>=0;i1--){
-				temp = temp + name.charAt(i1);
-				
-			}
-			
-		reversed.add(temp);
-			temp = "";			
-		}
-		for(String s1 :reversed){
-			
-			System.out.println("List "+s1);
-		}
+	}
+	}
+
+
+public void reverseStringByHema(){
+	String temp = "";
+	List<String> reversed = new ArrayList<String>();
 	
+	List<String> li = new ArrayList<String>();
+	
+	li.add("Hema");
+	li.add("Akarsh");
+	
+	Iterator<String> i = li.iterator();
+	while(i.hasNext()){
+		String name = i.next();
+						
+		for(int i1 = name.length()-1;i1>=0;i1--){
+			temp = temp + name.charAt(i1);
+			
+		}
+		
+	reversed.add(temp);
+		temp = "";			
+	}
+	for(String s1 :reversed){
+		
+		System.out.println("List "+s1);
+	}
+
 }
 
 
