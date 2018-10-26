@@ -54,6 +54,10 @@ private void reverseByJayi() {
 	}
 
 
+public void banu(){
+	System.out.println("changes done by banu");
+}
+
 
 private void reversebyanitha() {
 	String s ="ANITHA DHANAVEL";
@@ -69,19 +73,7 @@ private void reversebyanitha() {
 	
 }
 
-	
 
-public void reverseByBanu() {
-	String a,reverse="";
-	Scanner in =new Scanner(System.in);
-	System.out.println("Enter a string to reverse");
-	a = in.nextLine();
-	int length = a.length();
-	for (int i = length - 1; i >= 0; i--)
-	reverse = reverse + a.charAt(i);
-	System.out.println("Reverse of entered string is: " + reverse);
-}
-	
 
 public void reverseBySubasri() {
 	String a,reverse="";
@@ -92,6 +84,7 @@ public void reverseBySubasri() {
 	for (int i = length - 1; i >= 0; i--)
 	reverse = reverse + a.charAt(i);
 	System.out.println("Reverse of entered string is: " + reverse);
+
 }
 
 public void reverseByArun() {
@@ -121,6 +114,16 @@ public void reversebyDevisathyarani()
 	}
 	}
 
+public void reverseByBanu() {
+	String a1,reverse1="";
+	Scanner input =new Scanner(System.in);
+	System.out.println("Enter a string to reverse");
+	a1 = input.nextLine();
+	int length1 = a1.length();
+	for (int i = length1 - 1; i >= 0; i--)
+	reverse1 = reverse1 + a1.charAt(i);
+	System.out.println("Reverse of entered string is: " + reverse1);
+}
 
 public void reverseStringByHema(){
 	String temp = "";
