@@ -52,6 +52,19 @@ private void reverseByJayi() {
 	reverse = reverse + original.charAt(i);
 	System.out.println("Reverse of entered string is: " + reverse);
 	}
+private void reversebyanitha() {
+	String s ="ANITHA DHANAVEL";
+	String  rev="";
+	int len1= s.length();
+	for (int i = len1 - 1; i >= 0; i--) {
+	rev = rev+s.charAt(i);	System.out.println("string reverse is " + rev);
+	}
+	System.out.println("string reverse is " + rev);
+		
+	
+	
+	
+}
 
 	
 
