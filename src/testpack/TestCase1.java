@@ -22,7 +22,6 @@ public class TestCase1 {
 
 	public void reverseByArun() {
 		String actual, rev = "";
-		@SuppressWarnings("resource")
 		Scanner string = new Scanner(System.in);
 		System.out.println("Enter a string to reverse");
 		actual = string.nextLine();
