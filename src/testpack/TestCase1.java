@@ -49,6 +49,10 @@ private void reverseByJayi() {
 	reverse = reverse + original.charAt(i);
 	System.out.println("Reverse of entered string is: " + reverse);
 	}
+public static void sindhu1(int c, int d) {
+	System.out.println(c * d);
 
-}
+}}
+
+
 
