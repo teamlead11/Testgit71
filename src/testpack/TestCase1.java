@@ -49,15 +49,14 @@ private void reverseByJayi() {
 	reverse = reverse + original.charAt(i);
 	System.out.println("Reverse of entered string is: " + reverse);
 	}
-
 public void reversebyDevisathyarani()
 {
 	String name,rev="";
-	Scanner sc=new Scanner(System.in);
+	Scanner sc1=new Scanner(System.in);
 	System.out.println("Enter a string reverse");
-	name=sc.nextLine();
-	int len=name.length();
-	for(int i=len-1;i>=0;i--)
+	name=sc1.nextLine();
+	int len1=name.length();
+	for(int i=len1-1;i>=0;i--)
 	{
 		rev=rev+name.charAt(i);
 		System.out.println(rev);
