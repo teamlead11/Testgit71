@@ -73,5 +73,18 @@ public void reverseBySubasri() {
 	System.out.println("Reverse of entered string is: " + reverse);
 }
 
+public void reverseByArun() {
+	String a,reverse="";
+	Scanner in1 =new Scanner(System.in);
+	System.out.println("Enter a string to reverse");
+	a = in1.nextLine();
+	int length1 = a.length();
+	for (int i = length1 - 1; i >= 0; i--)
+	reverse = reverse + a.charAt(i);
+	System.out.println("Reverse of entered string is: " + reverse);
+	
+}
+
+
 }
 
