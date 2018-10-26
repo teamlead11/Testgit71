@@ -1,7 +1,7 @@
 package testpack;
 import java.util.Scanner;
 
-import java.util.Scanner;
+
 
 public class TestCase1 {
 
@@ -49,6 +49,58 @@ private void reverseByJayi() {
 	reverse = reverse + original.charAt(i);
 	System.out.println("Reverse of entered string is: " + reverse);
 	}
+
+
+
+private void reversebyanitha() {
+	String s ="ANITHA DHANAVEL";
+	String  rev="";
+	int len1= s.length();
+	for (int i = len1 - 1; i >= 0; i--) {
+	rev = rev+s.charAt(i);	System.out.println("string reverse is " + rev);
+	}
+	System.out.println("string reverse is " + rev);
+		
+	
+	
+	
+}
+
+public void reverseByBanu() {
+	String a,reverse="";
+	Scanner in =new Scanner(System.in);
+	System.out.println("Enter a string to reverse");
+	a = in.nextLine();
+	int length = a.length();
+	for (int i = length - 1; i >= 0; i--)
+	reverse = reverse + a.charAt(i);
+	System.out.println("Reverse of entered string is: " + reverse);
+}
+	
+
+public void reverseBySubasri() {
+	String a,reverse="";
+	Scanner in =new Scanner(System.in);
+	System.out.println("Enter a string to reverse");
+	a = in.nextLine();
+	int length = a.length();
+	for (int i = length - 1; i >= 0; i--)
+	reverse = reverse + a.charAt(i);
+	System.out.println("Reverse of entered string is: " + reverse);
+}
+
+public void reverseByArun() {
+	String a,reverse="";
+	Scanner in1 =new Scanner(System.in);
+	System.out.println("Enter a string to reverse");
+	a = in1.nextLine();
+	int length1 = a.length();
+	for (int i = length1 - 1; i >= 0; i--)
+	reverse = reverse + a.charAt(i);
+	System.out.println("Reverse of entered string is: " + reverse);
+	
+}
+
 public void reversebyDevisathyarani()
 {
 	String name,rev="";
@@ -63,7 +115,7 @@ public void reversebyDevisathyarani()
 		
 	}
 	}
-}
+
 
 }
 
