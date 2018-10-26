@@ -33,8 +33,26 @@ public class BaseClass {
 		
 	}
 	
-
-	
+   public static void toCheckPalindrome(){
+		   
+		   int n = 122;
+		   int i = 0;
+		   int a = n;
+		   int r = 0;
+		   
+		   while (a>0){
+			   r= a%10;
+			   i = (i*10) + r;
+			   a = a/10;
+		   }
+		   
+		   if(n == i){
+			   System.out.println("n is a palindrome number");
+		   }else{
+			   System.out.println("n is not a palindrome number");
+		   }
+		   
+	   }
  		
  	
  		
