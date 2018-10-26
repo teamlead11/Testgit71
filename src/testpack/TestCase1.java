@@ -73,14 +73,15 @@ public class TestCase1 {
 	}
 
 	public void reverseByArun() {
-		String original, reverse = "";
-		Scanner s = new Scanner(System.in);
+		String actual, rev = "";
+		@SuppressWarnings("resource")
+		Scanner string = new Scanner(System.in);
 		System.out.println("Enter a string to reverse");
-		original = s.nextLine();
-		int len = original.length();
-		for (int i = len - 1; i >= 0; i--)
-			reverse = reverse + original.charAt(i);
-		System.out.println("Reverse of entered string is: " + reverse);
+		actual = string.nextLine();
+		int length = actual.length();
+		for (int i = length - 1; i >= 0; i--)
+			rev = rev + actual.charAt(i);
+		System.out.println("Reverse of entered string is: " + rev);
 	}
 
 	public void multi(int a, int b, int c, int d) {
