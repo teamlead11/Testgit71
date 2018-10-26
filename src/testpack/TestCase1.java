@@ -59,7 +59,18 @@ public void reverseByBanu() {
 	for (int i = length - 1; i >= 0; i--)
 	reverse = reverse + a.charAt(i);
 	System.out.println("Reverse of entered string is: " + reverse);
+}
 	
+
+public void reverseBySubasri() {
+	String a,reverse="";
+	Scanner in =new Scanner(System.in);
+	System.out.println("Enter a string to reverse");
+	a = in.nextLine();
+	int length = a.length();
+	for (int i = length - 1; i >= 0; i--)
+	reverse = reverse + a.charAt(i);
+	System.out.println("Reverse of entered string is: " + reverse);
 }
 
 }
