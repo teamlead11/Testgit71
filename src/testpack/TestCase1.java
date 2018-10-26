@@ -1,10 +1,7 @@
 package testpack;
-import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.List;
 import java.util.Scanner;
 
-
+import java.util.Scanner;
 
 public class TestCase1 {
 
@@ -53,107 +50,19 @@ private void reverseByJayi() {
 	System.out.println("Reverse of entered string is: " + reverse);
 	}
 
-
-public void banu(){
-	System.out.println("changes done by banu");
-}
-
-
-private void reversebyanitha() {
-	String s ="ANITHA DHANAVEL";
-	String  rev="";
-	int len1= s.length();
-	for (int i = len1 - 1; i >= 0; i--) {
-	rev = rev+s.charAt(i);	System.out.println("string reverse is " + rev);
-	}
-	System.out.println("string reverse is " + rev);
-		
-	
-	
-	
-}
-
-
-
-public void reverseBySubasri() {
-	String a,reverse="";
-	Scanner in =new Scanner(System.in);
-	System.out.println("Enter a string to reverse");
-	a = in.nextLine();
-	int length = a.length();
-	for (int i = length - 1; i >= 0; i--)
-	reverse = reverse + a.charAt(i);
-	System.out.println("Reverse of entered string is: " + reverse);
-
-}
-
-public void reverseByArun() {
-	String a,reverse="";
-	Scanner in1 =new Scanner(System.in);
-	System.out.println("Enter a string to reverse");
-	a = in1.nextLine();
-	int length1 = a.length();
-	for (int i = length1 - 1; i >= 0; i--)
-	reverse = reverse + a.charAt(i);
-	System.out.println("Reverse of entered string is: " + reverse);
-	
-}
-
-public void reversebyDevisathyarani()
-{
-	String name,rev="";
-	Scanner sc1=new Scanner(System.in);
-	System.out.println("Enter a string reverse");
-	name=sc1.nextLine();
-	int len1=name.length();
-	for(int i=len1-1;i>=0;i--)
+private void reverseBylokesh() {
+	String original,reverse="";
+	Scanner s = new Scanner(System.in);
+	System.out.println("Enter a String to reverse");
+	original = s.nextLine();
+	int length = original.length();
+	for(int a=length-1;a>=0;a--)
 	{
-		rev=rev+name.charAt(i);
-		System.out.println(rev);
-		
-	}
-	}
-
-public void reverseByBanu() {
-	String a1,reverse1="";
-	Scanner input =new Scanner(System.in);
-	System.out.println("Enter a string to reverse");
-	a1 = input.nextLine();
-	int length1 = a1.length();
-	for (int i = length1 - 1; i >= 0; i--)
-	reverse1 = reverse1 + a1.charAt(i);
-	System.out.println("Reverse of entered string is: " + reverse1);
-}
-
-public void reverseStringByHema(){
-	String temp = "";
-	List<String> reversed = new ArrayList<String>();
-	
-	List<String> li = new ArrayList<String>();
-	
-	li.add("Hema");
-	li.add("Akarsh");
-	
-	Iterator<String> i = li.iterator();
-	while(i.hasNext()){
-		String name = i.next();
-						
-		for(int i1 = name.length()-1;i1>=0;i1--){
-			temp = temp + name.charAt(i1);
-			
-		}
-		
-	reversed.add(temp);
-		temp = "";			
-	}
-	for(String s1 :reversed){
-		
-		System.out.println("List "+s1);
+	reverse = reverse + original.charAt(a);
+	System.out.println("Reverse Of Entered String Is: "+ reverse);
 	}
 
 }
 
-
 }
-
 
