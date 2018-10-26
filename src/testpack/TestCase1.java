@@ -73,7 +73,16 @@ private void reverseByLokes() {
 	System.out.println("Reverse of entered string is: " + reverse);
 	}
 
-
+public void reverseByArun() {
+	String original,reverse="";
+	Scanner s =new Scanner(System.in);
+	System.out.println("Enter a string to reverse");
+	original = s.nextLine();
+	int len = original.length();
+	for (int i = len - 1; i >= 0; i--)
+	reverse = reverse + original.charAt(i);
+	System.out.println("Reverse of entered string is: " + reverse);
+}
 
 public void reverseByMeenakshis()
 {
