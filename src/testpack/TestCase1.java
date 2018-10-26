@@ -50,5 +50,21 @@ private void reverseByJayi() {
 	System.out.println("Reverse of entered string is: " + reverse);
 	}
 
+public void reversebyDevisathyarani()
+{
+	String name,rev="";
+	Scanner sc=new Scanner(System.in);
+	System.out.println("Enter a string reverse");
+	name=sc.nextLine();
+	int len=name.length();
+	for(int i=len-1;i>=0;i--)
+	{
+		rev=rev+name.charAt(i);
+		System.out.println(rev);
+		
+	}
+	}
+}
+
 }
 
