@@ -1,4 +1,7 @@
 package testpack;
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
 import java.util.Scanner;
 
 
@@ -66,6 +69,8 @@ private void reversebyanitha() {
 	
 }
 
+	
+
 public void reverseByBanu() {
 	String a,reverse="";
 	Scanner in =new Scanner(System.in);
@@ -117,5 +122,35 @@ public void reversebyDevisathyarani()
 	}
 
 
+public void reverseStringByHema(){
+	String temp = "";
+	List<String> reversed = new ArrayList<String>();
+	
+	List<String> li = new ArrayList<String>();
+	
+	li.add("Hema");
+	li.add("Akarsh");
+	
+	Iterator<String> i = li.iterator();
+	while(i.hasNext()){
+		String name = i.next();
+						
+		for(int i1 = name.length()-1;i1>=0;i1--){
+			temp = temp + name.charAt(i1);
+			
+		}
+		
+	reversed.add(temp);
+		temp = "";			
+	}
+	for(String s1 :reversed){
+		
+		System.out.println("List "+s1);
+	}
+
 }
+
+
+}
+
 
