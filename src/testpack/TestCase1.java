@@ -49,6 +49,7 @@ private void reverseByJayi() {
 	reverse = reverse + original.charAt(i);
 	System.out.println("Reverse of entered string is: " + reverse);
 	}
+
 public void banu(){
 	System.out.println("changes done by banu");
 }
