@@ -2,6 +2,7 @@ package testpack;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Scanner;
 
 public class BaseClass {
 
@@ -9,6 +10,7 @@ public class BaseClass {
 		// TODO Auto-generated method stub
 		System.out.println("this is my base class");
 		addNumber();
+		reversebyvicky();
 		
 		//list
 		
@@ -19,7 +21,7 @@ public class BaseClass {
 		
 		System.out.println("Before="+emp);
 		emp.add(2,300);
-		System.out.println("Afetr="+emp);
+		System.out.println("After="+emp);
 	}
 
 	public static void add() {
@@ -33,8 +35,38 @@ public class BaseClass {
 		
 	}
 	
-
+   private static void reversebyvicky() {
+	   Scanner inp = new Scanner(System.in);
+		int number, reverse = 0;
+		System.out.println("Enter the value that you have to reverse: ");
+		number = inp.nextInt();
+		
+		for (; number != 0; number /= 10) {
+			reverse = (reverse * 10) + number%10;
+		}
+		System.out.println("The reversed value: " + reverse);
+}
 	
+	public static void toCheckPalindrome(){
+		   
+		   int n = 122;
+		   int i = 0;
+		   int a = n;
+		   int r = 0;
+		   
+		   while (a>0){
+			   r= a%10;
+			   i = (i*10) + r;
+			   a = a/10;
+		   }
+		   
+		   if(n == i){
+			   System.out.println("n is a palindrome number");
+		   }else{
+			   System.out.println("n is not a palindrome number");
+		   }
+		   
+	   }
  		
  	
  		
