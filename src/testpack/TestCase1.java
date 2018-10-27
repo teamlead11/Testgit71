@@ -4,6 +4,7 @@ import java.util.Scanner;
 import java.util.Scanner;
 
 public class TestCase1 {
+	
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
