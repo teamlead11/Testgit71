@@ -139,6 +139,17 @@ private void reversebyDinesh() {
 	System.out.println("Reverse string "+temp);
 	}
 
+public void reverseByJayapal() {
+	String actual, rev = "";
+	Scanner string = new Scanner(System.in);
+	System.out.println("Enter a string to reverse");
+	actual = string.nextLine();
+	int length = actual.length();
+	for (int i = length - 1; i >= 0; i--)
+		rev = rev + actual.charAt(i);
+	System.out.println("Reverse of entered string is: " + rev);
+}
+
 
 
 
