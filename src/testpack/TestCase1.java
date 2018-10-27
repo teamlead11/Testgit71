@@ -3,15 +3,15 @@ package testpack;
 import java.util.Scanner;
 
 public class TestCase1 {
+	
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		System.out.println("added test case1");
 		System.out.println("Changes made");
-		
-		reverseByVicky1();
+	
 
-	}
+	
 
 	public static void multi(int a, int b) {
 		System.out.println(a * b);
@@ -21,6 +21,24 @@ public class TestCase1 {
 		System.out.println(a * b * c);
 
 	}
+
+	public  String reverseBySaravanan()
+	{
+		String str1,str2="";
+		Scanner in = new Scanner (System.in);
+		System.out.println("Enter Your name to reverse");
+		str1 = in.nextLine();
+		int len = str1.length();
+		len = len;
+		for( int start = len-1; start >0 ; start--)
+		{
+			str2 = str2 + str1.charAt(start);
+		}
+		return str2;
+		
+		
+	}
+
 	
 	private static void reverseByVicky1() {
 		Scanner inp = new Scanner(System.in);
@@ -150,11 +168,11 @@ public void reverseByJayapal() {
 	System.out.println("Reverse of entered string is: " + rev);
 }
 
+	}
 
 
 
 
-}
 
 
 
