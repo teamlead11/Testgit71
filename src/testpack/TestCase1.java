@@ -174,6 +174,18 @@ private void reversebyDineshtesting() {
 	System.out.println("Reverse string "+temp);
 	}
 
+public void reversebyjudetesting() {
+	String name = "jude";
+	String temp= null;
+	for(int i= name.length()-1; i >= 0; i--)
+	{
+	char ch = name.charAt(i);
+	temp =temp+ch;
+	
+	}
+	System.out.println("Reverse string "+temp);
+	}
+
 	}
 
 
