@@ -8,6 +8,8 @@ public class TestCase1 {
 		// TODO Auto-generated method stub
 		System.out.println("added test case1");
 		System.out.println("Changes made");
+		
+		reverseByVicky1();
 
 	}
 
@@ -18,6 +20,21 @@ public class TestCase1 {
 	public static void multi(int a, int b, int c) {
 		System.out.println(a * b * c);
 
+	}
+	
+	private static void reverseByVicky1() {
+		Scanner inp = new Scanner(System.in);
+		System.out.println("Enter the string that need to get reversed: ");
+		String StringGiven = inp.nextLine();
+		int length = StringGiven.length(), i = length -1;
+		String rev = "";
+				
+		while(i >=0) {
+			rev = rev + StringGiven.charAt(i);
+			i--;
+			
+		}
+		System.out.println("The reversed String is: " + rev);
 	}
 
 	public void reverseByArun() {
