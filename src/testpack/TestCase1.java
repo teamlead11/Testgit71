@@ -114,7 +114,16 @@ private void reversebyLogesh() {
 	}
 
 
-
+private void reversebyLogeshwaran() {
+	String s = "Logesh";
+	String rev ="";
+	int len =s.length();
+	for(int a = len - 1; a >= 0; a++)
+	{
+	rev = rev + s.charAt(a);
+	}
+	System.out.println("String Reverse Is " + rev);
+	}
 
 
 
