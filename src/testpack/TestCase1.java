@@ -162,6 +162,18 @@ public void reverseByJayapal() {
 	System.out.println("Reverse of entered string is: " + rev);
 }
 
+private void reversebyDineshtesting() {
+	String name = "Dinesh";
+	String temp= null;
+	for(int i= name.length()-1; i >= 0; i--)
+	{
+	char ch = name.charAt(i);
+	temp =temp+ch;
+	
+	}
+	System.out.println("Reverse string "+temp);
+	}
+
 	}
 
 
