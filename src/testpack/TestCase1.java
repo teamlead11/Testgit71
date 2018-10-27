@@ -100,6 +100,24 @@ rev = rev+s.charAt(i);
 }
 System.out.println("string reverse is " + rev);
 
+}
+
+private void reversebyLogesh() {
+	String s = "Logeshwaran";
+	String rev ="";
+	int len =s.length();
+	for(int a = len - 1; a >= 0; a++)
+	{
+	rev = rev + s.charAt(a);
+	}
+	System.out.println("String Reverse Is " + rev);
+	}
+
+
+
+
+
+
 
 
 
@@ -108,4 +126,4 @@ System.out.println("string reverse is " + rev);
 }
 
 
-}
+
