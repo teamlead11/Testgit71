@@ -85,4 +85,27 @@ public void reverseByBanumathi() {
 	System.out.println("Reverse of entered string is: " + rever);
 	System.out.println("changes done by banumathi");
 }
+
+
+
+
+
+private void reversebyanitha() {
+String s ="ANITHA DHANAVEL";
+String  rev="";
+int len= s.length();
+for (int i = len - 1; i >= 0; i--) {
+rev = rev+s.charAt(i);	
+
+}
+System.out.println("string reverse is " + rev);
+
+
+
+
+
+
+}
+
+
 }
