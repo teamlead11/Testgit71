@@ -54,6 +54,10 @@ public class BaseClass {
 		   
 	   }
  		
+   public void display() {
+	// TODO Auto-generated method stub
+	System.out.println("Welcome");
+   }
  	
  		
  
