@@ -136,6 +136,8 @@ public class BaseClass {
 		  		   
 	   }
 	
- 		
+	public static void add() {
+		System.out.println("some code added by Suba");
+	}
  
 }
