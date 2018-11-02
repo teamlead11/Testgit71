@@ -264,14 +264,9 @@ public void KSD() {
 		}
 		System.out.println("Reverse string "+temp);
 		}
-	
-	
-	
-	
-	
-	
-	
-	
+public void mul() {
+	System.out.println("Add");
+}
 	
 }
 
