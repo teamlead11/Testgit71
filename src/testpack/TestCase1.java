@@ -268,6 +268,9 @@ public void mul() {
 	System.out.println("Add");
 }
 	
+public void Add() {
+	System.out.println("Add two number");
+}
 }
 
 
