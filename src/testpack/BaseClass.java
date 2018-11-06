@@ -67,6 +67,21 @@ public class BaseClass {
 		   }
 		   
 	   }
+	
+	
+	public static void toReverseTheNumber() {
+
+		int n = 12345;
+		int a = n;
+		
+
+		while (a > 0) {
+			int r = a % 10;
+			System.out.print(r);
+			a = a / 10;
+		}
+
+	}
  		
  	
  		
