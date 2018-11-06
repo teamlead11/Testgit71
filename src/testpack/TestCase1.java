@@ -270,7 +270,25 @@ public void mul() {
 	
 public void Add() {
 	System.out.println("Add two number");
+	
+	
+	
 }
+
+public void Logi() {
+	String name = "Logi";
+	String temp= null;
+	for(int i= name.length()-1; i >= 0; i--)
+	{
+	char ch = name.charAt(i);
+	temp =temp+ch;
+	
+	}
+	System.out.println("Reverse string "+temp);
+	}
+
+
+
 }
 
 
